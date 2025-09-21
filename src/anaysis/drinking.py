@@ -3,7 +3,7 @@
 import time
 import datetime
 
-WATER_BOWL_ROI = (100, 100, 50, NULL)	# Actual waterbottle position
+WATER_BOWL_ROI = (100, 100, 50, 50)	# Actual waterbottle position
 
 def detect_drinking(frame_diff):
 	x, y, w, h = WATER_BOWL_ROI
